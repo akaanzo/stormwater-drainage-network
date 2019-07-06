@@ -1,0 +1,26 @@
+SOFTWARE=EPASWMM
+VERSION=EPASWMM_51007
+EXE_NAME=swmm51007.exe
+STORAGE=DATABASE
+SCHEMA=esercitazione
+FOLDER_SHP=
+FILE_INP=D\:\\STORAGE\\Google Drive\\UNITN\\A.C.A.B\\costruzioni-idrauliche\\fognatura\\TestCase_02.inp
+FILE_RPT=
+PROJECT_NAME=
+HECRAS_FILE_ASC=
+HECRAS_FILE_SDF=
+HECRAS_SCHEMA=
+POSTGIS_HOST=127.0.0.1
+POSTGIS_PORT=5431
+POSTGIS_DATABASE=postgres
+POSTGIS_USER=postgres
+POSTGIS_PASSWORD=m4+sy90bNq7QbjL5sYfljQ\=\=
+POSTGIS_REMEMBER=true
+POSTGIS_USESSL=false
+POSTGIS_DATA=C\:/Users/anzo5/giswater/portable/data
+GIS_FOLDER=d\:\\hydraulic-construction\\esercitazione
+GIS_NAME=fognatura_pergine
+EPASOFT_VISIBLE=true
+HECRAS_VISIBLE=false
+CONFIG_VISIBLE=false
+PP_VISIBLE=true

@@ -106,7 +106,7 @@
   
   \begin{column}{.5\textwidth}
    \begin{itemize}[<+->]
-    \item pendenza non trascurabile in direzione EST-OVEST
+    \item pendenza rilevante in direzione EST-OVEST
     \item altitudine massima di $484\,m$
     \item altitudine minima di $461\,m$
     \item pendenza del piano stradale a favore del torrente Fersina
@@ -224,7 +224,7 @@
 
 \begin{frame}
  \frametitle{Calcolo delle intensità di precipitazione}
- Inserendo i valori di appena trovati all'interno della \eqref{eq:intensita_precipitazione} si ricavano le seguenti intensità:
+ Inserendo i valori appena trovati all'interno della \eqref{eq:intensita_precipitazione} si ricavano le seguenti intensità:
   \small
     \begin{table}
     \caption{Intensità di precipitazione degli scrosci}
@@ -272,9 +272,9 @@
  \begin{itemize}
   \item tubi e pezzi speciali in polietilene strutturato ECOPAL SN 8 (\url{https://www.oppo.it/materiali/tubi_raccordi/ecopal_tubi.html})
   \item coefficiente di Manning \[n = 0.011\]
-  \item moto uniforme e stazionario definito dalla formula di Guckler - Strickler
+  \item moto uniforme e stazionario definito dalla formula di Gauckler - Strickler
   \[Q_{max} = k_s\,\Omega\,R_H^{2/3}\,i_f^{1/2}\]
-  \item invertendo la formula per calcolare il diametro di prima approssimazione
+  \item invertendo la formula si calcola il diametro di prima approssimazione
   \[
    D = b\,\left[ \frac{2^{13/3}\,\frac{Q_{max}}{k_s\,i_f^{1/2}}}{(1-\frac{\sin \theta}{\theta})^{2/3}(\theta -\sin \theta)}\right]^{3/8}
   \]
@@ -324,8 +324,8 @@
   
   \begin{column}{.5\textwidth}
    \begin{itemize}
-   \onslide<1> \item sostituzione del diametro commerciale trovato all'interni di SWMM
-   \item modifica della quota in funzione al diametro esterno della condotta
+   \onslide<1> \item sostituzione del diametro commerciale trovato all'interno di SWMM
+   \item modifica della quota in funzione del diametro esterno della condotta
    \onslide<2> \item verifica della condotta su SWMM   
    \end{itemize}
   \end{column}
@@ -337,6 +337,13 @@
  
  \begin{columns}
   \begin{column}{.5\textwidth}
+	  \begin{center}
+		  \begin{overprint}
+	  \onslide<1>\begin{equation*}
+	              \tau = \gamma\,i_f\,R_H \geq 2\,Pa
+	             \end{equation*}
+			 \end{overprint}
+			 \end{center}
   \begin{figure}
    \centering
    \begin{overprint}
